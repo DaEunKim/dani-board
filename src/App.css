@@ -1,0 +1,37 @@
+.cusAppCss {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.boardform {
+  margin: 30px;
+  
+}
+
+.boardforminput {
+  border: 3px solid rgba(204, 197, 197, 0.918);
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 14px 20px;
+  margin: 15px 0;
+
+}
+.boardformbutton{
+  background-color: #4CAF50;
+  text-align: center;
+  border-radius: 4px;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
